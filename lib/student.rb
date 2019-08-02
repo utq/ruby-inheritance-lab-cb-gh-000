@@ -1,3 +1,6 @@
+require_relative "../lib/user.rb"
+require_relative "../lib/teacher.rb"
+
 class Student < User
   attr_accessor :knowledge
 
